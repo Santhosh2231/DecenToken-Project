@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Rubik';
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: rgb(37, 40, 35); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Minter {
+  /* max-width: 80vh;
+  max-height: 80vh;
+  padding: 60px 100px; */
+  margin: 0 auto;
+  text-align: left;
+
+}
+.navbar{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,0,136,1) 35%, rgba(0,212,255,1) 100%); 
+  height: 100px;
+  color: #ffffff;
+}
+.nav-text{
+  padding-left: 60px;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#walletButton{
+  height: 125px;
+}
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  font-size: 16px;
+  width: 100%;
+  border-color: rgba(4, 4, 5, 0.1);
+  line-height: 32px;
+  padding: auto;
+}
+
+h2{
+  margin-left: 20px;
+}
+
+input:focus {
+  outline: none;
+  border-color: rgba(4, 4, 5, 0.4);
+}
+
+
+.card{
+  -webkit-box-shadow: 8px 1px 34px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 1px 34px -14px rgba(0,0,0,0.75);
+box-shadow: 8px 1px 34px -14px rgba(0,0,0,0.75);
+}
+
+button {
+  padding: 9px 16px;
+  max-height: 40px;
+  /*box-shadow: 4px 4px 15px 0 rgb(0 0 0 / 20%);*/
+  
+  color: #254cdd;
+  background-color: white;
+  border-radius: 8px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  font-weight: bold;
+  cursor:pointer;
+}
+
+button:hover {
+  margin-top: -1px;
+}
+
+#title {
+  padding-top: 32px;
+}
+
+.uploadFile {
+  border: 4px dashed rgba(4, 4, 5, 0.1);
+  border-radius: 16px;
+  text-align: center;
+  padding: 32px 60px;
+}
+input{
+  margin: 10px 10px 10px 10px;
+  width: 95%;
+}
+#walletButton {
+  text-align: right;
+  float:right;
+  margin-bottom: 50px;
+  line-height: 16px;
+}
+/*
+#walletButton:focus {
+  outline:none;
+  border: none;
+}
+
+#walletButton:hover {
+  outline:none;
+  border :none;
+} */
+
+.purple_buttons {
+  margin-top: 10px;
+  background-color: #9d2feb;
+  color:white;
+  margin-left: 10px;
+  width: 100px;
+}
+
+#status {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.given_file {
+  margin:10px;
+}
+
+a {
+  text-decoration: none;
+}
